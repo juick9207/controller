@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$('up-btn').click(function(){
+	$('#up-btn').click(function(){
 		$('#player').animate({top:'-=50px'},300);
 	});
 	$('#down-btn').click(function(){
